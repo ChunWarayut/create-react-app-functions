@@ -4,15 +4,15 @@ import '../styles/App.css';
 function DefaultApp() {
   return (
     <main>
-      <h1>Create React App + Go API</h1>
+      <h1>Create React App By ChunWarayut</h1>
       <h2>
-        Deployed with
+        Subscribe with
         <a
-          href="https://zeit.co/docs"
+          href="https://github.com/ChunWarayut"
           target="_blank"
           rel="noreferrer noopener"
         >
-          ZEIT Now
+          GitHub Now
         </a>
         !
       </h2>
