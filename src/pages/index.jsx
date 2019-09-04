@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/App.css';
+import Route from '../route';
 
 function DefaultApp() {
   return (
@@ -16,6 +17,7 @@ function DefaultApp() {
         </a>
         !
       </h2>
+      <Route />
     </main>
   );
 }

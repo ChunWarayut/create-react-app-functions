@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 import React, { Component } from 'react'
 
-class Home extends Component {
+class NotFound extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -16,7 +16,7 @@ class Home extends Component {
     return (
       <div className="error">
         <div className="error__content">
-          <h2>404</h2>
+          <h2>500</h2>
           <h3>Something went wrong!</h3>
           <p>There was a problem on our end. Please try again later.</p>
           <button type="button" className="btn btn-accent btn-pill" onClick={this.onClick}>
@@ -28,4 +28,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default NotFound
